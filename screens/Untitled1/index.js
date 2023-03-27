@@ -6,7 +6,7 @@ const Untitled1 = () => {
         <ScrollView contentContainerStyle={{
       backgroundColor: '#f0f0f1',
       padding: 10,
-      position: 'relative',
+      position: 'absolute',
       flex: 1
     }}></ScrollView>
     </SafeAreaView>;
@@ -14,7 +14,8 @@ const Untitled1 = () => {
 
 const styles = StyleSheet.create({
   safeArea: {
-    height: '100%'
+    height: '100%',
+    backgroundColor: "#ffffff"
   }
 });
 export default Untitled1;
